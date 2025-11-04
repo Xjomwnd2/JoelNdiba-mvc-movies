@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
-using JoelNdiba_mvc_movies.Models;
+using System.Collections.Generic;
 
-namespace MvcMovie.Models
+namespace JoelNdiba_mvc_movies.Models
 {
     public class MovieGenreViewModel
     {
@@ -9,6 +9,5 @@ namespace MvcMovie.Models
         public SelectList? Genres { get; set; }
         public string? MovieGenre { get; set; }
         public string? SearchString { get; set; }
-        public int? YearFilter { get; set; }
     }
 }
