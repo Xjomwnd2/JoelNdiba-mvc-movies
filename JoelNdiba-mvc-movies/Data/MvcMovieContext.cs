@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using JoelNdiba_mvc_movies.Models;
+using JoelNdiba_mvc_movies.Models;  // ✅ Make sure this line exists!
 
 namespace JoelNdiba_mvc_movies.Data
 {
