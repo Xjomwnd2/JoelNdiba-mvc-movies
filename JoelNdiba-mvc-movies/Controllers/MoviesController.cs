@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using JoelNdiba_mvc_movies.Data;
 using JoelNdiba_mvc_movies.Models;
 
-namespace MvcMovie.Controllers
+namespace JoelNdiba_mvc_movies.Controllers
 {
     public class MoviesController : Controller
     {
