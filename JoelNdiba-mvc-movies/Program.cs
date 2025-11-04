@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using JoelNdiba_mvc_movies.Data;
-using MvcMovie.Models;
 using JoelNdiba_mvc_movies.Models;
 
 
