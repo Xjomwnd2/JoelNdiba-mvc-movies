@@ -8,8 +8,7 @@ namespace MvcMovie.Models
         public static void Initialize(IServiceProvider serviceProvider)
         {
             using (var context = new MvcMovieContext(
-                serviceProvider.GetRequiredService
-                    DbContextOptions<MvcMovieContext>>()))
+                serviceProvider.GetRequiredService<DbContextOptions<MvcMovieContext>>()))
             {
                 if (context.Movie.Any())
                 {
@@ -49,7 +48,6 @@ namespace MvcMovie.Models
                         Price = 3.99M,
                         Rating = "PG"
                     },
-                    // YOUR THREE FAVORITE MOVIES - Customize these!
                     new Movie
                     {
                         Title = "The Shawshank Redemption",
