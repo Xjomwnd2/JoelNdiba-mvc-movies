@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System.Collections.Generic;
 
 namespace JoelNdiba_mvc_movies.Models
 {
@@ -9,5 +8,6 @@ namespace JoelNdiba_mvc_movies.Models
         public SelectList? Genres { get; set; }
         public string? MovieGenre { get; set; }
         public string? SearchString { get; set; }
+        public int? YearFilter { get; set; }
     }
 }
