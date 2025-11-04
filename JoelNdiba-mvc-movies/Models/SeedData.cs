@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using MvcMovie.Data;
+using JoelNdiba_mvc_movies.Data;
+
 
 namespace MvcMovie.Models
 {
