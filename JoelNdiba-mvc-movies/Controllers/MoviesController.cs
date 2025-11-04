@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using JoelNdiba_mvc_movies.Data;
-using MvcMovie.Models;
+using JoelNdiba_mvc_movies.Models;
 
 namespace MvcMovie.Controllers
 {
