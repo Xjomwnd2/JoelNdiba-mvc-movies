@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using JoelNdiba_mvc_movies.Data;   // ✅ Use your actual Data namespace
-using JoelNdiba_mvc_movies.Models; // ✅ Use your actual Models namespace
+using JoelNdiba_mvc_movies.Data;
 
 namespace JoelNdiba_mvc_movies.Models
 {
@@ -13,7 +12,7 @@ namespace JoelNdiba_mvc_movies.Models
             {
                 if (context.Movie.Any())
                 {
-                    return;   // DB has been seeded
+                    return;
                 }
 
                 context.Movie.AddRange(
