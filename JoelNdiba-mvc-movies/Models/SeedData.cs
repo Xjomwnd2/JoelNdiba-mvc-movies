@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using JoelNdiba_mvc_movies.Models;
+using JoelNdiba_mvc_movies.Data;   // ✅ Use your actual Data namespace
+using JoelNdiba_mvc_movies.Models; // ✅ Use your actual Models namespace
 
-
-namespace MvcMovie.Models
+namespace JoelNdiba_mvc_movies.Models
 {
     public static class SeedData
     {
@@ -13,7 +13,7 @@ namespace MvcMovie.Models
             {
                 if (context.Movie.Any())
                 {
-                    return;
+                    return;   // DB has been seeded
                 }
 
                 context.Movie.AddRange(
