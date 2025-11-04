@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
+using JoelNdiba_mvc_movies.Models;
 
 namespace MvcMovie.Models
 {
